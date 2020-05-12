@@ -2,22 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
+
 public class EnemyGrid : MonoBehaviour
 {
     //Enemigos Totales del mapa.
     public GameObject[] Enemy;
-
-
+    
     //Posicion Enemiga
     public GameObject EnemyInGrid;
-
+    
     //Lista de Posiciones de Enemigos
     [HideInInspector]
     public Vector3[] Enemy_Position;
 
     List<Vector3> globlalPosition = new List<Vector3>();
-
 
     private Vector3 spawnPosition;
     public Vector3 Grid_original = Vector3.zero;
@@ -25,7 +23,7 @@ public class EnemyGrid : MonoBehaviour
 
     //Lista para guardar los Brick ya Instalados.
     [HideInInspector]
-   public List<Vector3> SaveBrick = new List<Vector3>();
+    public List<Vector3> SaveBrick = new List<Vector3>();
 
 
     //Componentes de la Cuadrilla.
@@ -35,9 +33,14 @@ public class EnemyGrid : MonoBehaviour
 
     private bool Summon;
 
+    private GameManager Gm;
+
     
     private void Start()
     {
+        Gm = GetComponent<GameManager>();
+        GameObject GmObject = GameObject.FindGameObjectWithTag("GameManager");
+        if (GmObject!= null){ Gm = GmObject.GetComponent<GameManager>();}
         SpawnGrid();
     }
    
@@ -64,7 +67,7 @@ public class EnemyGrid : MonoBehaviour
             {
             
             Instantiate(Enemy[i],Enemy_Position[i], transform.rotation);
-                SaveBrick.Add(Enemy_Position[i]);
+            SaveBrick.Add(Enemy_Position[i]);
 
 
             }
@@ -72,15 +75,20 @@ public class EnemyGrid : MonoBehaviour
           
     }
 
+
     private void Update()
     {
-        foreach (var x in SaveBrick)
+        Object[] EnemyInScne = GameObject.FindGameObjectsWithTag("Enemy");
+        if (EnemyInScne.Length == 0)
         {
-            Debug.Log(x);
+            //Si hay 0 enemigos en scena gano!.
+            Gm.WinGame();
+            
         }
+  
     }
-
 }
+ 
 
 
 

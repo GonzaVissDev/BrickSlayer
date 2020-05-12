@@ -7,7 +7,7 @@ using UnityEngine;
 public class ScriptableEnemy :ScriptableObject
 {
     public enum LootRate { Commun, Rare, Epic, Legendary };
-    public LootRate Prabability = LootRate.Commun;
+    public LootRate Prabability = LootRate.Rare;
 
     public int Life;
     public float Speed;

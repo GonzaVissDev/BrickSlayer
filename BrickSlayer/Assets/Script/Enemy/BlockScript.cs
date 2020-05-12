@@ -19,9 +19,10 @@ public class BlockScript : MonoBehaviour
     private int  ScoreValue;
     private string Anim_Name;
     private Animator Anim;
+    public  enum Rare{ Commun, raro, epico ,legendario };
+    public  Rare Probability;
 
-
-    private void Start()
+    private void Awake()
     {
         GameObject ScriptObject = GameObject.FindGameObjectWithTag("Grid");
         if (ScriptObject != null) GridScript = ScriptObject.GetComponent<EnemyGrid>();
@@ -32,22 +33,53 @@ public class BlockScript : MonoBehaviour
         ScoreValue = Stats.ScoreValue;
         Anim_Name = Stats.AniamtionName;
 
-}
+        switch (Stats.Prabability)
+        {
+            case ScriptableEnemy.LootRate.Commun:
+
+                Probability = Rare.Commun;
+
+                break;
+
+            case ScriptableEnemy.LootRate.Rare:
+
+                Probability = Rare.raro;
+                break;
+
+            case ScriptableEnemy.LootRate.Epic:
+
+                Probability = Rare.epico;
+
+                break;
+
+            case ScriptableEnemy.LootRate.Legendary:
+
+                Probability = Rare.legendario;
+                break;
+        }
+    }
 
 
+    public virtual void ActivateSkill()
+    { }
 
-    public void Hp_Manager(int Dmg)
+    public virtual void Hp_Manager(int Dmg)
     {
         Life -= Dmg;
         if (Life <= 0)
         {
             Debug.Log("Me llego el dmg" + Dmg);
-            slime.ActivateSkill();
+            ActivateSkill();
             //Agregar Animacion de Hit...
             Destroy(this.gameObject);
-           
-
         }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        ActivateSkill();
+        Destroy(this.gameObject);
     }
 
 

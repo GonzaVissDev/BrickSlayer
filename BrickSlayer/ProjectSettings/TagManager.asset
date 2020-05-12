@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Grid
   - Enemy
+  - GameManager
+  - HitBoxPlayer
+  - Hit
   layers:
   - Default
   - TransparentFX

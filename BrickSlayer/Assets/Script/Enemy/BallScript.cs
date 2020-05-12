@@ -55,8 +55,19 @@ public class BallScript : MonoBehaviour
             col.gameObject.GetComponent<BlockScript>().Hp_Manager(Damage);
                 
         }
+
+
     }
 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Hit")
+        {
+            Destroy(collision.gameObject);
+
+        }
+    }
 
 }
 

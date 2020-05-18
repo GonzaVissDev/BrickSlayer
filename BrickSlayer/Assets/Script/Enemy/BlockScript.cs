@@ -66,20 +66,25 @@ public class BlockScript : MonoBehaviour
     public virtual void Hp_Manager(int Dmg)
     {
         Life -= Dmg;
+        Debug.Log(Life);
+        ActivateSkill();
+
         if (Life <= 0)
         {
             Debug.Log("Me llego el dmg" + Dmg);
-            ActivateSkill();
             //Agregar Animacion de Hit...
-            Destroy(this.gameObject);
+            Destroy(this.gameObject,0.3f);
         }
     }
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        ActivateSkill();
-        Destroy(this.gameObject);
+
+        Hp_Manager(1);
+      
+   
+     
     }
 
 

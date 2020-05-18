@@ -7,7 +7,6 @@ public class PlayerScript : MonoBehaviour
 
     private Rigidbody2D Rb2D;
     public float Speed = 150f;
-   
     private GameManager Gm;
 
      Vector3 StartPosition = new Vector3(0, -3, 0);

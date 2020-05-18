@@ -6,12 +6,20 @@ public class Sword : MonoBehaviour
 {
     public float SwordInitialVelocity = 600f;
     private Rigidbody2D rb2d;
-    private bool SwordInPlay;
+   public  bool SwordInPlay;
 
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
     }
+
+    private void Start()
+    {
+    
+    }
+
+
+
 
     private void Update()
     {
@@ -23,4 +31,6 @@ public class Sword : MonoBehaviour
             rb2d.AddForce(new Vector2(SwordInitialVelocity, SwordInitialVelocity));
         }
     }
+
+
 }

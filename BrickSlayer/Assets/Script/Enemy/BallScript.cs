@@ -5,15 +5,30 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
     private Rigidbody2D rb2d;
+    private bool SwordInPlay = false;
     public int Damage;
     // Movement Speed
-    public float speed = 100.0f;
+    public float speed = 10f;
 
     // Use this for initialization
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        rb2d.velocity = Vector2.up * speed;
+      //  rb2d.velocity = Vector2.up * speed;
+    }
+
+    private void Update()
+    {
+
+        if (Input.GetButtonDown("Fire1") && SwordInPlay == false)
+        {
+            transform.parent = null;
+            SwordInPlay = true;
+            rb2d.isKinematic = false;
+            rb2d.velocity = Vector2.up * speed;
+
+        }
+        
     }
 
 

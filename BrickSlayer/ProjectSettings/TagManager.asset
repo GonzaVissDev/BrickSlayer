@@ -9,6 +9,7 @@ TagManager:
   - GameManager
   - HitBoxPlayer
   - Hit
+  - IntroText
   layers:
   - Default
   - TransparentFX

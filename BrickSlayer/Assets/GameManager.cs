@@ -12,6 +12,11 @@ public class GameManager : MonoBehaviour
     public Text GameCondition;
     public GameObject Player;
     public static GameManager instance = null;
+    private ReadyText IntroText;
+    public string NextLvl;
+    public float GlobalSpeed;
+
+
 
     private GameObject ClonePlayer;
     
@@ -24,23 +29,37 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        IntroText = GetComponent<ReadyText>();
+        GameObject Objecttext = GameObject.FindGameObjectWithTag("IntroText");
+        if (Objecttext != null) IntroText = Objecttext.GetComponent<ReadyText>();
         SetUpGame();
-    
+        IntroText.rdyState = ReadyText.ReadyState.Start;
+        //falta testear el tiempo y la velocidad que aumenta..
+        InvokeRepeating("SpeedUp", 0.0f, 10f);
+
+
     }
 
+    public void SpeedUp()
+    {
+        Time.timeScale+= GlobalSpeed;
+    }
 
     public void SetUpGame()
     {
+
+        Time.timeScale = 1f;
       ClonePlayer= Instantiate(Player, transform.position, Quaternion.identity )as GameObject;
+        Time.timeScale = 1f;
 
     }
 
     public void WinGame()
     {
-        GameCondition.text = "Ganaste";
+        GameCondition.text = "Nivel Completado";
         GameCondition.enabled = true;
         Time.timeScale = .25f;
-        Invoke("ResetGame", ResetDelay);
+        Invoke("NextLevel", ResetDelay);
         Debug.Log("Ganaste");
     }
 
@@ -60,6 +79,14 @@ public class GameManager : MonoBehaviour
 
         //Falta cargar animacion de carga de pantalla.
     }
+
+    public void NextLevel()
+    {
+        Application.LoadLevel(NextLvl);
+
+     
+    }
+
 
     public void LoseLife(){
         Life--;

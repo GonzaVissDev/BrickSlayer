@@ -66,7 +66,6 @@ public class BlockScript : MonoBehaviour
     public virtual void Hp_Manager(int Dmg)
     {
         Life -= Dmg;
-        Debug.Log(Life);
         ActivateSkill();
 
         if (Life <= 0)

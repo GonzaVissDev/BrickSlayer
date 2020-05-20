@@ -960,6 +960,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController
       objectReference: {fileID: 0}
+    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
+        type: 3}
+      propertyPath: ConditionText
+      value: 
+      objectReference: {fileID: 1461034658}
+    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
+        type: 3}
+      propertyPath: HeartText
+      value: 
+      objectReference: {fileID: 606291915}
+    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
+        type: 3}
+      propertyPath: GameCondition
+      value: 
+      objectReference: {fileID: 1461034658}
+    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 2755892915048128694, guid: 163133141fa4fb8448ba11eedde52a74,
+        type: 3}
+    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
+        type: 3}
+      propertyPath: NextLvl
+      value: Test
+      objectReference: {fileID: 0}
     - target: {fileID: 4981168347705350577, guid: 9b646007e274f924cb167cfdeec6a234,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1014,32 +1040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
-        type: 3}
-      propertyPath: ConditionText
-      value: 
-      objectReference: {fileID: 1461034658}
-    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
-        type: 3}
-      propertyPath: HeartText
-      value: 
-      objectReference: {fileID: 606291915}
-    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
-        type: 3}
-      propertyPath: GameCondition
-      value: 
-      objectReference: {fileID: 1461034658}
-    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
-        type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 2755892915048128694, guid: 163133141fa4fb8448ba11eedde52a74,
-        type: 3}
-    - target: {fileID: 4981168347705350576, guid: 9b646007e274f924cb167cfdeec6a234,
-        type: 3}
-      propertyPath: NextLvl
-      value: SampleScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b646007e274f924cb167cfdeec6a234, type: 3}

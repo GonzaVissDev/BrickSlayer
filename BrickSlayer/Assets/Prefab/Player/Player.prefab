@@ -99,6 +99,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
+  BUFF_SPEED: 0
+  BUFF_SHIELD: 0
+  Big_Shield: {fileID: 7105734818498695602, guid: 60ff34d685ed2ac4fb72d4f9920c59d0,
+    type: 3}
 --- !u!50 &2755892915048128650
 Rigidbody2D:
   serializedVersion: 4

@@ -5,7 +5,9 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
     private Rigidbody2D rb2d;
+    private Animator anim;
     private bool SwordInPlay = false;
+    public bool Go = false;
     public int Damage;
     // Movement Speed
     public float speed = 10f;
@@ -14,13 +16,15 @@ public class BallScript : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+       
       //  rb2d.velocity = Vector2.up * speed;
     }
 
     private void Update()
     {
-
-        if (Input.GetButtonDown("Fire1") && SwordInPlay == false)
+        anim.SetBool("Spin", Go);
+        if (Go == true && SwordInPlay == false)
         {
             transform.parent = null;
             SwordInPlay = true;

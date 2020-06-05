@@ -11,6 +11,7 @@ public  class Slime_Skill :BlockScript
     public GameObject ObjectToSummon;
     private List<Vector3> PosicionesOpcupadas = new List<Vector3>();
     private Vector3[] PosicionesaInvocar;
+    private Vector3 NewSlime;
 
      void Start(){
         //So_enemy = GetComponent<BlockScript>();
@@ -37,34 +38,41 @@ public  class Slime_Skill :BlockScript
         if (Probability == Rare.epico)
         {
             SummonRngSlime();
-            SummonRngSlime();
+         
         }
     }
 
 
     public void SummonRngSlime()
     {
-      
-            for (int i = 0; i < Grid.Enemy_Position.Length; i++)
+        
+
+        foreach (var x in Grid.Enemy_Position)
+        {
+            if (Grid.SaveBrick.Contains(x) == false)
             {
-                foreach (var x in Grid.SaveBrick)
-                {
-                    if (Grid.Enemy_Position[i] != x)
-                    {
-                        PosicionesOpcupadas.Add(Grid.Enemy_Position[i]);
+                PosicionesOpcupadas.Add(x);
 
-                    }
-                }
             }
+        }
+        PosicionesaInvocar = PosicionesOpcupadas.ToArray();
+        int randomNumber = Random.Range(0, PosicionesOpcupadas.Count);
 
-            PosicionesaInvocar = PosicionesOpcupadas.ToArray();
-            int randomNumber = Random.Range(0, PosicionesOpcupadas.Count);
-            Instantiate(ObjectToSummon, PosicionesaInvocar[randomNumber], transform.rotation);
+        if (randomNumber < PosicionesaInvocar.Length)
+        {
+            NewSlime = PosicionesaInvocar[randomNumber];
+
+            Debug.Log("New position" + NewSlime);
+            Grid.SaveBrick.Add(NewSlime);
+
+            Instantiate(ObjectToSummon, NewSlime, transform.rotation);
 
 
+        }
+
+        PosicionesOpcupadas.Clear();
     }
 
- 
 }
 
 

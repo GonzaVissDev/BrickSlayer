@@ -18,6 +18,9 @@ public class EnemyGrid : MonoBehaviour
     List<Vector3> globlalPosition = new List<Vector3>();
 
     private Vector3 spawnPosition;
+    private Vector3 RemovePosition;
+
+
     public Vector3 Grid_original = Vector3.zero;
 
 
@@ -75,6 +78,24 @@ public class EnemyGrid : MonoBehaviour
           
     }
 
+    public void RemoveEnemyInList(Vector3 posicion)
+    {
+
+
+        foreach (var x in SaveBrick)
+        {
+            if (x == posicion)
+            {
+                Debug.Log("Se encontro el lugar y va ser removido" + x);
+                RemovePosition = x;
+
+            }
+
+        }
+        SaveBrick.Remove(RemovePosition);
+
+
+    }
 
     private void Update()
     {

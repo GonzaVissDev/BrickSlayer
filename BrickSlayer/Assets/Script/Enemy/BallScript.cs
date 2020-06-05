@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class BallScript : MonoBehaviour
 {
+    //Caracteristicas de la Espada.
+    public int Damage;
+    private int Count;
+    public float speed = 10f;
+    //Componentes:
+
     private Rigidbody2D rb2d;
     private Animator anim;
     private bool SwordInPlay = false;
     public bool Go = false;
-    public int Damage;
-    // Movement Speed
-    public float speed = 10f;
+ 
 
     // Use this for initialization
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-       
-      //  rb2d.velocity = Vector2.up * speed;
+
+        //  rb2d.velocity = Vector2.up * speed;
     }
 
     private void Update()
@@ -32,7 +36,7 @@ public class BallScript : MonoBehaviour
             rb2d.velocity = Vector2.up * speed;
 
         }
-        
+
     }
 
 
@@ -49,12 +53,13 @@ public class BallScript : MonoBehaviour
 
 
 
-
+    //Falta crear un contador que aumente cada vez que choca contra la pared, y si choca mas de 4 veces o mas tire la pelota para una direccion y se reincie el contador.
     void OnCollisionEnter2D(Collision2D col)
     {
         // Hit the Racket?
         if (col.gameObject.tag == "Player")
         {
+            Count = 0;
             Debug.Log("Toque al splayer");
             // Calculate hit Factor
             float x = hitFactor(transform.position,
@@ -68,11 +73,26 @@ public class BallScript : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = dir * speed;
         }
 
+        //Cree una variable que compara si choca contra la pared mas de 6 veces se mueve hacia arriba, asi evitamos el bug de rebote horizontal.
+        //No olvides de poner los contadores en 0 cada vez que choca con el enemigo y player.
+        if (col.gameObject.tag == "Wall")
+        {
+            Count++;
+            if (Count > 6)
+            {
+                rb2d.velocity = Vector2.up * speed;
+                Debug.Log("Tengo que salir ");
+            }
+            Count = 0;
+
+        }
+
         if (col.gameObject.tag == "Enemy")
         {
+            Count = 0;
             Debug.Log("Toque al enemigo");
             col.gameObject.GetComponent<BlockScript>().Hp_Manager(Damage);
-                
+
         }
 
 
@@ -89,4 +109,5 @@ public class BallScript : MonoBehaviour
     }
 
 }
+
 

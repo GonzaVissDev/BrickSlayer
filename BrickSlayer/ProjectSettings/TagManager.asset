@@ -10,6 +10,9 @@ TagManager:
   - HitBoxPlayer
   - Hit
   - IntroText
+  - Wall
+  - Projectile
+  - Sword
   layers:
   - Default
   - TransparentFX
@@ -19,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Proyectil
+  - Enemy
   - 
   - 
   - 

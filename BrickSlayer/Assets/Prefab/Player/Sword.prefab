@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 6138246738560789889}
   - component: {fileID: 6138246738560789890}
   - component: {fileID: 6138246738560789891}
-  - component: {fileID: 6138246738560789888}
   - component: {fileID: 3000104095824929857}
   - component: {fileID: 2277270408195033622}
   - component: {fileID: 7759838687519979482}
+  - component: {fileID: 5918168889830586020}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Player
@@ -32,7 +32,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 3192261905687390721}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -107,22 +108,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &6138246738560789888
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6138246738560790013}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.012341529, y: 0.013712898}
-  serializedVersion: 2
-  m_Radius: 0.09237863
 --- !u!114 &3000104095824929857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,8 +120,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f978221c08d74824694a0325049fd6b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SwordInitialVelocity: 400
-  SwordInPlay: 0
+  multipler: 1.1
+  minSpeed: 1
+  maxSpeed: 5
+  curSpeed: 0
+  Cd: 10
+  Pstate: 2
 --- !u!114 &2277270408195033622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,14 +133,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6138246738560790013}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecaa0de82ee484a42b888af5f2dc6fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Go: 0
   Damage: 1
   speed: 10
+  Go: 0
 --- !u!95 &7759838687519979482
 Animator:
   serializedVersion: 3
@@ -171,3 +160,67 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5918168889830586020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6138246738560790013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34efdfabeb45a324a892e69ac901b945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multipler: 1.1
+  minSpeed: 2.5
+  maxSpeed: 7
+  curSpeed: 0
+  Go: 0
+--- !u!1 &6828511018898701281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3192261905687390721}
+  - component: {fileID: 8463984711180395324}
+  m_Layer: 0
+  m_Name: Hitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3192261905687390721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828511018898701281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6138246738560789889}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8463984711180395324
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828511018898701281}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0052416176, y: 0.26540214}
+  serializedVersion: 2
+  m_Radius: 0.14723772

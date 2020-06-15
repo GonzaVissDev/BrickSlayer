@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class TimeController :MonoBehaviour
 {
+   [Tooltip("Tiempo Total del Reloj")]
     public float OmW = 120;
     float TimeInScene;
     public Text TimeText;
     public GameManager GM;
+    private Animator anim;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
+        anim = GetComponent<Animator>();
         OmW = 120;
-
     }
 
     // Update is called once per frame
@@ -23,27 +24,23 @@ public class TimeController :MonoBehaviour
 
         if (GM.RdyToPlay == true)
         {
-            TimeInScene = OmW - Time.time;
+            TimeInScene = OmW - Time.timeSinceLevelLoad;
 
         if (TimeInScene > 0)
         {
 
             string minutes = ((int)TimeInScene / 60).ToString();
-            string seconds = (TimeInScene % 60).ToString("f1");
+            string seconds = (TimeInScene % 60).ToString("f0");
 
             TimeText.text = minutes + ":" + seconds;
-            //  Debug.Log("Minutos:" + minutes + "//" + "Segundos:" + seconds);
+                //  Debug.Log("Minutos:" + minutes + "//" + "Segundos:" + seconds);
+                if (TimeInScene < 25f) anim.Play("Hurry");
 
-
-
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                ResetTime();
-            }
         }
         else
             GM.LoseGame();
     }
+        
     }
 
     public void StopTime(bool FreezeAll)

@@ -172,11 +172,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34efdfabeb45a324a892e69ac901b945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multipler: 1.1
-  minSpeed: 2.5
-  maxSpeed: 7
+  Dmg: 1
+  multipler: 1.5
+  minSpeed: 5
+  maxSpeed: 10
   curSpeed: 0
   Go: 0
+  Spark: {fileID: 1995403933065894, guid: 4961a16ba01e09547be3e1c9d16d5ad0, type: 3}
 --- !u!1 &6828511018898701281
 GameObject:
   m_ObjectHideFlags: 0

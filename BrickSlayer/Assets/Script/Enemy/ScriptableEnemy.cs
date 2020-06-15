@@ -11,8 +11,6 @@ public class ScriptableEnemy :ScriptableObject
 
     public int Life;
     public float Speed;
-    public int  ScoreValue;
-    public string AniamtionName;
-   
-       
+ 
+         
 }

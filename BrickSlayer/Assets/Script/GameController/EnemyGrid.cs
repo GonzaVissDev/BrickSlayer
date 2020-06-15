@@ -100,13 +100,17 @@ public class EnemyGrid : MonoBehaviour
     private void Update()
     {
         Object[] EnemyInScne = GameObject.FindGameObjectsWithTag("Enemy");
-        if (EnemyInScne.Length == 0)
+        Object[] EnemyInScne_2 = GameObject.FindGameObjectsWithTag("ESqueleto");
+        Object[] EnemyInScne_3 = GameObject.FindGameObjectsWithTag("Boss");
+
+        if (EnemyInScne.Length == 0 && EnemyInScne_2.Length == 0 && EnemyInScne_3.Length == 0)
         {
             //Si hay 0 enemigos en scena gano!.
             Gm.WinGame();
             
         }
-  
+       
+
     }
 }
  

@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: c1b18af732c29dd4eb96b2e91807dd0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -228769511781002479
+    second: Slime_Raro_Sheet_0
+  - first:
+      213: 2736233315858038606
+    second: Slime_Raro_Sheet_1
+  - first:
+      213: -8233798622375648763
+    second: Slime_Raro_Sheet_2
+  - first:
+      213: 3575442295931678275
+    second: Slime_Raro_Sheet_3
+  - first:
+      213: 5899569596552422549
+    second: Slime_Raro_Sheet_4
+  - first:
+      213: -1019087394256826840
+    second: Slime_Raro_Sheet_5
+  - first:
+      213: -5882680220610991632
+    second: Slime_Raro_Sheet_6
+  - first:
+      213: 6672785491501652327
+    second: Slime_Raro_Sheet_7
+  - first:
+      213: -6224148126111767632
+    second: Slime_Raro_Sheet_8
+  - first:
+      213: -2569682467666815617
+    second: Slime_Raro_Sheet_9
+  - first:
+      213: -345515872442635381
+    second: Slime_Raro_Sheet_10
+  - first:
+      213: -5335342220218198751
+    second: Slime_Raro_Sheet_11
+  - first:
+      213: 8037385534723846122
+    second: Slime_Raro_Sheet_12
+  - first:
+      213: 1344281798843913220
+    second: Slime_Raro_Sheet_13
+  - first:
+      213: 6373181071053241409
+    second: Slime_Raro_Sheet_14
+  - first:
+      213: -6995066419843108364
+    second: Slime_Raro_Sheet_15
+  - first:
+      213: -1869736440817774161
+    second: Slime_Raro_Sheet_16
+  - first:
+      213: -490039242984058542
+    second: Slime_Raro_Sheet_17
+  - first:
+      213: -241056881894576186
+    second: Slime_Raro_Sheet_18
+  - first:
+      213: 8721250414545036833
+    second: Slime_Raro_Sheet_19
+  - first:
+      213: 731024564615678517
+    second: Slime_Raro_Sheet_20
+  - first:
+      213: -4037271324412049760
+    second: Slime_Raro_Sheet_21
+  - first:
+      213: 8737155573657564742
+    second: Slime_Raro_Sheet_22
+  - first:
+      213: 8880081716669520618
+    second: Slime_Raro_Sheet_23
+  - first:
+      213: 4442174738329262714
+    second: Slime_Raro_Sheet_24
+  - first:
+      213: 6666307605722070756
+    second: Slime_Raro_Sheet_25
+  - first:
+      213: 3854817142453570122
+    second: Slime_Raro_Sheet_26
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 392
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0331c6b83ee0fca47b9c38e10e91dda4
+      internalID: -228769511781002479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 392
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d9f82f991efd54ca01e09bbce1901d
+      internalID: 2736233315858038606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 392
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9963c1e074b56c940a2c1ea31a830a03
+      internalID: -8233798622375648763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 392
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566ab072d054c9345b990e79021c3dff
+      internalID: 3575442295931678275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 264
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0742a4b6b67c0f4baf6f6c4a9fb49bd
+      internalID: 5899569596552422549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 265
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e0c6b3b6f7c22459c75d541498e41f
+      internalID: -1019087394256826840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 264
+        width: 127
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448b349104841e047b79ea7e384c9aa0
+      internalID: -5882680220610991632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 340
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cdd0bdd2137a04cbcdc8597d6d1038
+      internalID: 6672785491501652327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 340
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a591afe37fbd34099fd20756e58f35
+      internalID: -6224148126111767632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 342
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f79997d9981ef9449f3f5f46d6112ad
+      internalID: -2569682467666815617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 336
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f7c446d6c24f24f903b9e5421c4293
+      internalID: -345515872442635381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 264
+        width: 125
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e8a50bd02ccb344815005bd1a978fe
+      internalID: -5335342220218198751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 345
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c478e8c744ea147bbd5b5c3106c480
+      internalID: 8037385534723846122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 341
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a96c9aba7845443bc29fbf2eebe71e
+      internalID: 1344281798843913220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 315
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c33481f0231243b855c424c185a1e
+      internalID: 6373181071053241409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 264
+        width: 133
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d76ebbad4efd14db4a76a5dd4bf09f
+      internalID: -6995066419843108364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 314
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3248063b240dc4596dc19c0064be72
+      internalID: -1869736440817774161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 136
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa16949808a3abb4cad64445732d3bd3
+      internalID: -490039242984058542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 136
+        width: 110
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a5b66cb3fd31c4b86bc8842645344b
+      internalID: -241056881894576186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 136
+        width: 105
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59bfb2b0b23cc44d80b17438870eb26
+      internalID: 8721250414545036833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 138
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce5d13dbd72d354cbe940831e71766f
+      internalID: 731024564615678517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 136
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a85e4c71a88974fbcff00cb7aaaaa3
+      internalID: -4037271324412049760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb8236585a702d46885977fa49a4b0c
+      internalID: 8737155573657564742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 10
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e033fb5aac4812a4fb60742bbb45794a
+      internalID: 8880081716669520618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8
+        width: 105
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c15ed1d674cf99468e446d430b9532a
+      internalID: 4442174738329262714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 8
+        width: 110
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e418d4387b487041bdc0c324adb6897
+      internalID: 6666307605722070756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Raro_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 8
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63c003fbd231a44586e5d4cec3de72e
+      internalID: 3854817142453570122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

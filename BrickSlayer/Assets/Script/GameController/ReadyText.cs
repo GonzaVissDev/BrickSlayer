@@ -8,6 +8,7 @@ public class ReadyText : MonoBehaviour
 
     public enum ReadyState { Start, Ended };
     public ReadyState rdyState = ReadyState.Ended;
+
     public bool Readyend = false;
 
     private GameManager Gm;
@@ -15,6 +16,7 @@ public class ReadyText : MonoBehaviour
 
     [SerializeField]
     public Text RdyText;
+    public Text Shadowtext;
 
     string ReadyText_1 = "3";
     string ReadyText_2 = "2";
@@ -35,16 +37,18 @@ public class ReadyText : MonoBehaviour
     {
 
         RdyText.text = ReadyText_1;
-        yield return new WaitForSeconds(1);
+        Shadowtext.text = ReadyText_1;
+       
+        yield return new WaitForSeconds(1f);
         ReadyText_1 = ReadyText_2;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1f);
         ReadyText_2 = ReadyText_3;
-        yield return new WaitForSeconds(1);
-
+        yield return new WaitForSeconds(1f);
         ReadyText_3 = ReadyText_4;
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(1f);
         rdyState = ReadyState.Ended;
         RdyText.enabled = false;
+        Shadowtext.enabled = false;
         Readyend = true;
       
 

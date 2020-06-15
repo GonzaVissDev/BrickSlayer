@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4894001746925851591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.37, y: 0, z: 64.92776}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1000
-  m_Sprite: {fileID: 21300000, guid: 921cc2350bd216240ab612eb04d594da, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
+  m_Sprite: {fileID: 21300000, guid: 1f55bd1b949c16f43a5c150eedd53bcb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7607843}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -96,6 +96,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Time: 10
+  Tinta:
+  - {fileID: 21300000, guid: 80573a1e819f48a43a57217463a9633b, type: 3}
+  - {fileID: 21300000, guid: 5e3dcd9481ff09e41acc0a23d5e6ba14, type: 3}
+  - {fileID: 21300000, guid: 1f55bd1b949c16f43a5c150eedd53bcb, type: 3}
 --- !u!95 &4894001746925851584
 Animator:
   serializedVersion: 3

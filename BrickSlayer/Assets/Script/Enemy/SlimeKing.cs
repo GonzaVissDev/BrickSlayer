@@ -8,6 +8,7 @@ public class SlimeKing : BlockScript
     public float Time;
     public GameObject Stain;
     public GameObject[] Slime;
+    public GameObject Particle;
     private CameraEffect cam;
     public PlayerScript player;
     private EnemyGrid Grid;
@@ -95,6 +96,7 @@ public class SlimeKing : BlockScript
             Debug.Log("New position" + NewSlime);
             Grid.SaveBrick.Add(NewSlime);
 
+            Instantiate(Particle, NewSlime, transform.rotation);
             Instantiate(Slime[RandomSlime], NewSlime, transform.rotation);
 
 

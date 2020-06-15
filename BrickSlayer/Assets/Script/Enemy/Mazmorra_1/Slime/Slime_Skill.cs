@@ -9,6 +9,8 @@ public  class Slime_Skill :BlockScript
     private BlockScript bs;
 
     public GameObject ObjectToSummon;
+    public GameObject ParticleSummon;
+  
     private List<Vector3> PosicionesOpcupadas = new List<Vector3>();
     private Vector3[] PosicionesaInvocar;
     private Vector3 NewSlime;
@@ -18,25 +20,25 @@ public  class Slime_Skill :BlockScript
 
         //Debug.Log(So_enemy.Stats.Prabability);
         GameObject GridObject = GameObject.FindGameObjectWithTag("Grid");
-        if(GridObject != null){ Grid = GridObject.GetComponent<EnemyGrid>(); }
+        if(GridObject != null){ Grid = GridObject.GetComponent<EnemyGrid>(); 
 
-   
-
+        }
     }
-    
 
-
-   public override void ActivateSkill(){
+    public override void ActivateSkill(){
+     
         if (Probability == Rare.Commun)
         {
           //No hace nada
         }
         if (Probability == Rare.raro)
         {
+          
             SummonRngSlime();
         }
         if (Probability == Rare.epico)
         {
+       
             SummonRngSlime();
          
         }
@@ -62,9 +64,10 @@ public  class Slime_Skill :BlockScript
         {
             NewSlime = PosicionesaInvocar[randomNumber];
 
-            Debug.Log("New position" + NewSlime);
             Grid.SaveBrick.Add(NewSlime);
 
+
+            Instantiate(ParticleSummon, NewSlime, transform.rotation);
             Instantiate(ObjectToSummon, NewSlime, transform.rotation);
 
 
@@ -72,6 +75,8 @@ public  class Slime_Skill :BlockScript
 
         PosicionesOpcupadas.Clear();
     }
+
+
 
 }
 

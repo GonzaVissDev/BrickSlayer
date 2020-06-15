@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2543262584030363619}
   - component: {fileID: 4559037746108711365}
   - component: {fileID: 172562685459912490}
-  - component: {fileID: 814165705533355127}
   - component: {fileID: 1287110416204349289}
-  m_Layer: 0
+  - component: {fileID: 7778424798173406433}
+  m_Layer: 9
   m_Name: Slime(Comun)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -101,8 +101,28 @@ MonoBehaviour:
   Life: 0
   Probability: 0
   ObjectToSummon: {fileID: 2310690674348759341}
---- !u!61 &814165705533355127
-BoxCollider2D:
+  ParticleSummon: {fileID: 0}
+--- !u!95 &1287110416204349289
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2310690674348759341}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 30e2e69cc56a27448b843f13c1ecb5bb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &7778424798173406433
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -124,25 +144,22 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.97959185, y: 0.97959185}
-  m_EdgeRadius: 0
---- !u!95 &1287110416204349289
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2310690674348759341}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 30e2e69cc56a27448b843f13c1ecb5bb, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48, y: -0.235}
+      - {x: 0.48, y: 0.005}
+      - {x: 0.35, y: 0.265}
+      - {x: 0.19, y: 0.39499998}
+      - {x: 0.089999996, y: 0.42499998}
+      - {x: -0.12, y: 0.42499998}
+      - {x: -0.22, y: 0.39499998}
+      - {x: -0.37, y: 0.24499999}
+      - {x: -0.44, y: 0.16499999}
+      - {x: -0.5, y: 0.015}
+      - {x: -0.5, y: -0.255}
+      - {x: -0.37, y: -0.39499998}
+      - {x: -0.19, y: -0.42499998}
+      - {x: 0.21, y: -0.42499998}
+      - {x: 0.29999998, y: -0.385}
+      - {x: 0.35, y: -0.36499998}
+      - {x: 0.39, y: -0.36499998}

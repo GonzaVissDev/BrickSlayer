@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: c28e2d3e466d1cd44801f532e5a0b891
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5376096882779462874
+    second: Corazones_Beta_2_0
+  - first:
+      213: 1610878060697166340
+    second: Corazones_Beta_2_1
+  - first:
+      213: -3522328181527447206
+    second: Corazones_Beta_2_2
+  - first:
+      213: 9031494626953286781
+    second: Corazones_Beta_2_3
+  - first:
+      213: 4602588232260324334
+    second: Corazones_Beta_2_4
+  - first:
+      213: -3531084361173308397
+    second: Corazones_Beta_2_5
+  - first:
+      213: -4361268370546231949
+    second: Corazones_Beta_2_6
+  - first:
+      213: -2044160814322031329
+    second: Corazones_Beta_2_7
+  - first:
+      213: 8660961320879729886
+    second: Corazones_Beta_2_8
+  - first:
+      213: 5619792449415054932
+    second: Corazones_Beta_2_9
+  - first:
+      213: 5201717050763531531
+    second: Corazones_Beta_2_10
+  - first:
+      213: -9018724346172610117
+    second: Corazones_Beta_2_11
+  - first:
+      213: 3345150636692322352
+    second: Corazones_Beta_2_12
+  - first:
+      213: 7064361259308872454
+    second: Corazones_Beta_2_13
+  - first:
+      213: 5465392421425778839
+    second: Corazones_Beta_2_14
+  - first:
+      213: -4922770785627357107
+    second: Corazones_Beta_2_15
+  - first:
+      213: 4526183280728830127
+    second: Corazones_Beta_2_16
+  - first:
+      213: 4017303099756700782
+    second: Corazones_Beta_2_17
+  - first:
+      213: -7520410607764337755
+    second: Corazones_Beta_2_18
+  - first:
+      213: -4482908473333287604
+    second: Corazones_Beta_2_19
+  - first:
+      213: 939350333166756935
+    second: Corazones_Beta_2_20
+  - first:
+      213: 1370365158002374931
+    second: Corazones_Beta_2_21
+  - first:
+      213: 261156310819124173
+    second: Corazones_Beta_2_22
+  - first:
+      213: 6248218001891679156
+    second: Corazones_Beta_2_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Corazones_Beta_2_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4823d79b91af84c9a95bec53bccdb4
+      internalID: -5376096882779462874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 97
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dfa2a47b827c4469fe4821a674692b
+      internalID: 1610878060697166340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 97
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bec8aadd7dca7746a71cb72072e8348
+      internalID: -3522328181527447206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 97
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cc5ee0a32d53f41a85b3b69e0f8f9c
+      internalID: 9031494626953286781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 78
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9863ec5a61ef37249b022609dcfe7849
+      internalID: 4602588232260324334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 78
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40aa680b1e191e419b79a90d3ff4d4f
+      internalID: -3531084361173308397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 78
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad15398d29e87c4eb1b59e2edd6419d
+      internalID: -4361268370546231949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 79
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08996f96145e9c45a00e12b8fbed908
+      internalID: -2044160814322031329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 78
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311c936d4b8368148b246eaa3249b478
+      internalID: 8660961320879729886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37bf9b2d7663b146b1c12ad28f44136
+      internalID: 5619792449415054932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 59
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133bf0fcaf50a014b9d594ff2a381e69
+      internalID: 5201717050763531531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 59
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd721e328b88d94fb3ecf484b00cda3
+      internalID: -9018724346172610117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 58
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7473ac905a47be04d996bacea99cc872
+      internalID: 3345150636692322352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 61
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8599e2faca811ff4c913c3101206262c
+      internalID: 7064361259308872454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_14
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 58
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96695bf361d540148b231f6d34706797
+      internalID: 5465392421425778839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 61
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496aa4beda48a1f47886930b18efbcb6
+      internalID: -4922770785627357107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 40
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45685a074494cf47a3b8a3b32a84578
+      internalID: 4526183280728830127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23b16a893b8da643ada340471a62630
+      internalID: 4017303099756700782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 21
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c23990d2ac98a4e956997b193475fd
+      internalID: -7520410607764337755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 21
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0157458ad066f504cb27fcddba0c20fc
+      internalID: -4482908473333287604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 22
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ce18a9261105241b82263d7dbcaf22
+      internalID: 939350333166756935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca7df71a0dcc004a8e1bc016e286b28
+      internalID: 1370365158002374931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd109d37204e05444ac48843a3fa26df
+      internalID: 261156310819124173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corazones_Beta_2_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dbc6f480006044cb11a5aa171c8688
+      internalID: 6248218001891679156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: e55b34688b747494c97d01ba9650ed5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1059445929321575829
+    second: Slime_Epico_Sheet_0
+  - first:
+      213: 5347046959380178774
+    second: Slime_Epico_Sheet_1
+  - first:
+      213: -4455734258201259619
+    second: Slime_Epico_Sheet_2
+  - first:
+      213: -6974649972458987141
+    second: Slime_Epico_Sheet_3
+  - first:
+      213: -1580151488572873559
+    second: Slime_Epico_Sheet_4
+  - first:
+      213: -8560535747209965051
+    second: Slime_Epico_Sheet_5
+  - first:
+      213: -6618842661150672850
+    second: Slime_Epico_Sheet_6
+  - first:
+      213: 4489694390559545664
+    second: Slime_Epico_Sheet_7
+  - first:
+      213: 7660471227755070944
+    second: Slime_Epico_Sheet_8
+  - first:
+      213: -5913843966244934475
+    second: Slime_Epico_Sheet_9
+  - first:
+      213: -1175810476681526372
+    second: Slime_Epico_Sheet_10
+  - first:
+      213: 823003848844359342
+    second: Slime_Epico_Sheet_11
+  - first:
+      213: 7950893453500259099
+    second: Slime_Epico_Sheet_12
+  - first:
+      213: -8338551834993268580
+    second: Slime_Epico_Sheet_13
+  - first:
+      213: 1984940474331209670
+    second: Slime_Epico_Sheet_14
+  - first:
+      213: 8974664104387973594
+    second: Slime_Epico_Sheet_15
+  - first:
+      213: 8407891148962020509
+    second: Slime_Epico_Sheet_16
+  - first:
+      213: -1349473435068133069
+    second: Slime_Epico_Sheet_17
+  - first:
+      213: 2073576615704462361
+    second: Slime_Epico_Sheet_18
+  - first:
+      213: 1064487996896001581
+    second: Slime_Epico_Sheet_19
+  - first:
+      213: 5192423221880427115
+    second: Slime_Epico_Sheet_20
+  - first:
+      213: -412766154315170545
+    second: Slime_Epico_Sheet_21
+  - first:
+      213: 291509972811019709
+    second: Slime_Epico_Sheet_22
+  - first:
+      213: -1328753071572229201
+    second: Slime_Epico_Sheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6817290bc7d3ce64194e0f4742bcce67
+      internalID: -1059445929321575829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 387
+        width: 126
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e69eaa83d94a408c4767f49286eae
+      internalID: 5347046959380178774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 386
+        width: 126
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ec02dd3a871d846914ded832b02b23
+      internalID: -4455734258201259619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 387
+        width: 126
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0c12f0862a7f04cbb72a2d8b76cc55
+      internalID: -6974649972458987141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38e70f4ca5c0954eb701d1e746fbf56
+      internalID: -1580151488572873559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 259
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2642d99bc8b3840a14ae43867c89ec
+      internalID: -8560535747209965051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 259
+        width: 128
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e8206b6d118e54d9d38dd9c4e2120a
+      internalID: -6618842661150672850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 332
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba37b4bfb926ae499092ed4fc8be3fd
+      internalID: 4489694390559545664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 341
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2b1e28a8005c140915a1e7699f4527
+      internalID: 7660471227755070944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 259
+        width: 127
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280f3aa8f90dffd40b09ce2babba9838
+      internalID: -5913843966244934475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 339
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51678baa33009d947a39e280350bc0d7
+      internalID: -1175810476681526372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 259
+        width: 126
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a04ebc33bbafe43888746bec5fa41f
+      internalID: 823003848844359342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 341
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e548ff10d5b4a3a439ea11d29c269dcf
+      internalID: 7950893453500259099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 340
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46b2297d1f2981458069b05a08657f3
+      internalID: -8338551834993268580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7003cfa87f7fb5143a0bcb06f26056eb
+      internalID: 1984940474331209670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 131
+        width: 126
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25986ee25e8d8c44587f9cb60a30891a
+      internalID: 8974664104387973594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 131
+        width: 118
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606c1ae5f8a6054c9df74aef5a9a0ff
+      internalID: 8407891148962020509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 134
+        width: 106
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6b2e5a247dda44d8788b5d11ab8f27
+      internalID: -1349473435068133069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 137
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b6b0b94875c4a458e29335d18bb451
+      internalID: 2073576615704462361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 8
+        width: 93
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef0b0f61938143469becaec26510e45
+      internalID: 1064487996896001581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 7
+        width: 106
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe70ef623e6cc049b77fef498347fc9
+      internalID: 5192423221880427115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3
+        width: 118
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3f57230253f74488f230198435688e
+      internalID: -412766154315170545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3
+        width: 126
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83739e831051d5e4f840e9ab7c8d35c2
+      internalID: 291509972811019709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Epico_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3
+        width: 126
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c571060e7ad2db4d8a65109d037ae6a
+      internalID: -1328753071572229201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

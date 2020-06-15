@@ -45,7 +45,7 @@ public class MagoProyectil :MonoBehaviour
             }
             if (Pstate == ProyectilState.Paralizar)
             {
-                collision.gameObject.GetComponent<PlayerScript>().Playerstate = PlayerScript.BuffState.Paralizado;
+                collision.gameObject.GetComponent<PlayerScript>().Playerstate = PlayerScript.BuffState.Dmg;
                 Destroy(this.gameObject);
             }
             if (Pstate == ProyectilState.Dmg)

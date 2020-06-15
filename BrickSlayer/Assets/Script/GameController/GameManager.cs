@@ -7,112 +7,134 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     //Componentes del jugador.
-    public int Life = 3;
-    public Text HeartText;
+    private int Life = 3;
+    public GameObject[] Corazones;
+
+    public GameObject ParticleWin;
     public GameObject Player;
     public static GameManager instance = null;
 
     private GameObject ClonePlayer;
 
+    private bool Winthegame;
     //Componentes del Juego.
+    private LevelLoader lvlControler;
     public float ResetDelay = 1f;
     public Text GameCondition;
+    public Text GameCondition_Shadow;
     private ReadyText IntroText;
-    public string NextLvl;
-    public float GlobalSpeed;
+
 
     //Cree un booleano "RdyToPlay" para verificar en los script "Ball y TimeController" si el juego ya es @Jugable@
     public bool RdyToPlay = false;
 
 
-
-    // Start is called before the first frame update
     void Start()
     {
+        //Obtengo los componentes de cada Variable.
         IntroText = GetComponent<ReadyText>();
+        lvlControler = GetComponentInChildren<LevelLoader>();
+
         GameObject Objecttext = GameObject.FindGameObjectWithTag("IntroText");
         if (Objecttext != null) IntroText = Objecttext.GetComponent<ReadyText>();
+        Winthegame = false;
         SetUpGame();
+
         IntroText.rdyState = ReadyText.ReadyState.Start;
-
-        //falta testear el tiempo y la velocidad que aumenta..
-       
-       //InvokeRepeating("SpeedUp", 0.0f, 10f);
-
+        GameCondition.enabled = false;
+        GameCondition_Shadow.enabled = false;
 
     }
 
-    public void SpeedUp()
-    {
-        Time.timeScale+= GlobalSpeed;
-    }
 
+    //Metodo configuracion inicial del juego.
     public void SetUpGame()
     {
-
         Time.timeScale = 1f;
         ClonePlayer= Instantiate(Player, transform.position, Quaternion.identity )as GameObject;
-        Time.timeScale = 1f;
 
     }
 
     public void WinGame()
     {
+        if(Winthegame == false)
+        {
+            Instantiate(ParticleWin,new Vector3(0,0,0), transform.rotation);
+            Winthegame = true;
+        }
+
         GameCondition.text = "Nivel Completado";
+        GameCondition_Shadow.text = "Nivel Completado";
         GameCondition.enabled = true;
+        GameCondition_Shadow.enabled = true;
         Time.timeScale = .25f;
-        Invoke("NextLevel", ResetDelay);
-        Debug.Log("Ganaste");
-    }
 
-    public void LoseGame()
-    {
-        GameCondition.text = "Perdiste";
-        GameCondition.enabled = true;
-        Time.timeScale = 0f;
-        Invoke("ResetGame", 1f);
-
-    }
-
-    public void ResetGame()
-    {
-        Debug.Log("Se reinicia el nivel");
-        Time.timeScale = 1f;
-        Application.LoadLevel(Application.loadedLevel);
-
-        //Falta cargar animacion de carga de pantalla.
-    }
-
-    public void NextLevel()
-    {
-        Application.LoadLevel(NextLvl);
-
-     
-    }
-
-
-    public void LoseLife(){
-        Life--;
-        HeartText.text = "Vidas:" + Life;
-        //Falta aGregar Animacion de muerte
+        //Borramos al jugador para evitar Bugs
         Object[] PlayerInScne = GameObject.FindGameObjectsWithTag("Player");
-
 
         foreach (GameObject x in PlayerInScne)
         {
             Destroy(x.gameObject);
         }
 
-        if (Life<=0)
+
+        lvlControler.LoadNextTextLevel();
+        
+       
+    }
+
+    public void LoseGame()
+    {
+        //Falta mandarlo al menu principal.
+        GameCondition.text = "Perdiste";
+        GameCondition_Shadow.text = "Perdiste";
+        GameCondition.enabled = true;
+        GameCondition_Shadow.enabled = true;
+        Time.timeScale = 0f;
+        Invoke("ResetGame", 1f);
+        Application.LoadLevel("MainMenu");
+
+    }
+
+    public void ResetGame()
+    {
+
+        Time.timeScale = 1f;
+        lvlControler.ResetLevel();
+    }
+
+
+
+    public void LoseLife(){
+
+        Life--;
+        if(Life > -1)
+        {
+            Corazones[Life].GetComponent<Animator>().SetBool("Destroy", true);
+        }
+
+        //Falta aGregar Animacion de muerte
+        Object[] PlayerInScne = GameObject.FindGameObjectsWithTag("Player");
+       // Object[] ObjectInScne = GameObject.FindGameObjectsWithTag("Sword");
+
+
+        foreach (GameObject x in PlayerInScne)
+        {
+            Destroy(x.gameObject);
+        }
+       /* foreach (GameObject x in ObjectInScne)
+        {
+            Destroy(x.gameObject);
+        }
+
+*/        if (Life<= -1)
         {
             LoseGame();
+            
         }
 
         Invoke("SetUpGame", ResetDelay);
 
     }
-
-
-
 
 }

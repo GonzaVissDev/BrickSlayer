@@ -15,12 +15,12 @@ public class BlockScript : MonoBehaviour
     [HideInInspector]
     public  int Life;
     private float  Speed;
-    private int  ScoreValue;
-    private string Anim_Name;
     private Animator Anim;
     public  enum Rare{ Commun, raro, epico ,legendario };
     public  Rare Probability;
     private Animator anim;
+
+
     private void Awake()
     {
         GameObject ScriptObject = GameObject.FindGameObjectWithTag("Grid");
@@ -29,8 +29,7 @@ public class BlockScript : MonoBehaviour
         slime = GetComponent<Slime_Skill>();
         Life = Stats.Life;
         Speed = Stats.Speed;
-        ScoreValue = Stats.ScoreValue;
-        Anim_Name = Stats.AniamtionName;
+
 
         switch (Stats.Prabability)
         {
@@ -66,13 +65,14 @@ public class BlockScript : MonoBehaviour
     {
         Life -= Dmg;
         ActivateSkill();
+
         anim.Play("Hit");
         if (Life <= 0)
         {
             anim.Play("Die");
-            Debug.Log("Me llego el dmg" + Dmg);
+           
+
             GridScript.RemoveEnemyInList(this.transform.position);
-            //Agregar Animacion de Hit...
             Destroy(this.gameObject,0.3f);
         }
     }
@@ -81,7 +81,8 @@ public class BlockScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        Hp_Manager(1);
+        //Falta configurar recibir el daño de la pelota y con que esta colisionando.
+
       
    
      

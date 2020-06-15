@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 565652848986485647}
   - component: {fileID: 2005813981549514153}
   - component: {fileID: 2048373601853747975}
-  - component: {fileID: 136355295818965875}
   - component: {fileID: 2807978174061632326}
-  m_Layer: 0
+  - component: {fileID: 8205842595395952721}
+  - component: {fileID: 577396687048104423}
+  m_Layer: 9
   m_Name: Slime(Epico)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -99,32 +100,6 @@ MonoBehaviour:
   Stats: {fileID: 11400000, guid: 00cca9b3d247e6e4e9ed110c67bba86d, type: 2}
   Life: 0
   Probability: 2
---- !u!61 &136355295818965875
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325342675306845505}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.029793024, y: 0.02482748}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.94041395, y: 0.45034504}
-  m_EdgeRadius: 0
 --- !u!114 &2807978174061632326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,3 +117,69 @@ MonoBehaviour:
   Probability: 2
   ObjectToSummon: {fileID: 1643698055056987332, guid: c8d1865e40703aa42b33fd7ee1da9412,
     type: 3}
+  ParticleSummon: {fileID: 9201014513724182822, guid: 95d19671cd96f4049b20dce009653b67,
+    type: 3}
+--- !u!95 &8205842595395952721
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325342675306845505}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7969297321b2c174b8277ea0a6057b98, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &577396687048104423
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325342675306845505}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.5, y: -0.015625}
+      - {x: 0.4921875, y: 0.046875}
+      - {x: 0.421875, y: 0.1640625}
+      - {x: 0.3359375, y: 0.2421875}
+      - {x: 0.21875, y: 0.328125}
+      - {x: 0.0703125, y: 0.3828125}
+      - {x: -0.0546875, y: 0.3828125}
+      - {x: -0.1875, y: 0.34375}
+      - {x: -0.28125, y: 0.296875}
+      - {x: -0.4609375, y: 0.1328125}
+      - {x: -0.5, y: 0.015625}
+      - {x: -0.5, y: -0.203125}
+      - {x: -0.4609375, y: -0.28125}
+      - {x: -0.375, y: -0.359375}
+      - {x: -0.2734375, y: -0.4296875}
+      - {x: -0.1640625, y: -0.4609375}
+      - {x: 0.1640625, y: -0.4609375}
+      - {x: 0.3046875, y: -0.4140625}
+      - {x: 0.390625, y: -0.3671875}
+      - {x: 0.5, y: -0.2109375}

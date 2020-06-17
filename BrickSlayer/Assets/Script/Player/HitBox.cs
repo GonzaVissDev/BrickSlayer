@@ -32,10 +32,12 @@ public class HitBox : MonoBehaviour
     {
         if(collision.gameObject.tag == "Sword")
         {
+            FindObjectOfType<AudioManager>().Play("Player_Die");
             Gm.LoseLife();
         }
         if (collision.gameObject.tag == "Projectile")
         {
+            FindObjectOfType<AudioManager>().Play("Player_Die");
             Gm.LoseLife();
         }
     }

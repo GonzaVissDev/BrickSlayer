@@ -25,7 +25,7 @@ public class LevelLoader : MonoBehaviour
 
     public void ResetLevel()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene("MainMenu");
     }
 
 

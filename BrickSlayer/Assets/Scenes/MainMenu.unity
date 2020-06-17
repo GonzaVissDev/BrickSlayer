@@ -642,6 +642,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1546925502}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sistema_Seleccionar
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &234356232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,7 +1111,6 @@ GameObject:
   - component: {fileID: 522990405}
   - component: {fileID: 522990404}
   - component: {fileID: 522990406}
-  - component: {fileID: 522990407}
   m_Layer: 5
   m_Name: Panel_Button
   m_TagString: Untagged
@@ -1185,19 +1195,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &522990407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522990402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4591fbeb5d8560941b8b765de85e2669, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AnimationName: Panel_In
 --- !u!1 &546246616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,6 +1363,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1546925502}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sistema_Seleccionar
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &664813644
@@ -1641,15 +1649,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2075435682}
-        m_MethodName: ExitPanelClose
-        m_Mode: 1
+      - m_Target: {fileID: 1546925502}
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Sistema_Seleccionar
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1253747660
@@ -1765,6 +1773,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534927456}
   m_CullTransparentMesh: 0
+--- !u!1001 &1546925501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3727586763302695083, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5775758
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.17232467
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -57.973133
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3727586763302695081, guid: d41b0e9ba9d57844db63826a229d24b8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d41b0e9ba9d57844db63826a229d24b8, type: 3}
+--- !u!114 &1546925502 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3727586763302695080, guid: d41b0e9ba9d57844db63826a229d24b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1546925501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb188c47638bf94cb8fa6e379576122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1604507031
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,6 +2496,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1546925502}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sistema_Seleccionar
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2123602689

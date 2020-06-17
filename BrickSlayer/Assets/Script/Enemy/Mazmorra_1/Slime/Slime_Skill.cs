@@ -29,16 +29,17 @@ public  class Slime_Skill :BlockScript
      
         if (Probability == Rare.Commun)
         {
-          //No hace nada
+            FindObjectOfType<AudioManager>().Play("Slime_Hit");
+            //No hace nada
         }
         if (Probability == Rare.raro)
         {
-          
+            FindObjectOfType<AudioManager>().Play("Slime_Hit");
             SummonRngSlime();
         }
         if (Probability == Rare.epico)
         {
-       
+            FindObjectOfType<AudioManager>().Play("Slime_Hit");
             SummonRngSlime();
          
         }
@@ -66,7 +67,7 @@ public  class Slime_Skill :BlockScript
 
             Grid.SaveBrick.Add(NewSlime);
 
-
+            FindObjectOfType<AudioManager>().Play("Slime_Up");
             Instantiate(ParticleSummon, NewSlime, transform.rotation);
             Instantiate(ObjectToSummon, NewSlime, transform.rotation);
 

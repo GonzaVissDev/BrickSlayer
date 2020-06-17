@@ -19,13 +19,19 @@ public class Esqueleto_Raro : BlockScript
         InvokeRepeating("Attack", CD, CD);
     }
 
+    public override void ActivateSkill()
+    {
+
+            FindObjectOfType<AudioManager>().Play("Esqueleto_Dano");
+    
+    }
 
 
 
 
     void Attack ()
     {
-     
+        FindObjectOfType<AudioManager>().Play("Esqueleto_Disparo");
         Instantiate(Flecha, transform.position, transform.rotation);
     }
 }

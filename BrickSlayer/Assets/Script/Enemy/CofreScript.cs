@@ -28,6 +28,7 @@ public class CofreScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Sword")
         {
+            FindObjectOfType<AudioManager>().Play("Cofre");
             anim.Play("Open");
         }
     }

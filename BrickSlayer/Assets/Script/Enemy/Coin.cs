@@ -24,6 +24,7 @@ public class Coin : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().Play("Power_UP");
             switch (Playerstate)
             {
 

@@ -34,10 +34,14 @@ public class TimeController :MonoBehaviour
 
             TimeText.text = minutes + ":" + seconds;
                 //  Debug.Log("Minutos:" + minutes + "//" + "Segundos:" + seconds);
-                if (TimeInScene < 25f) anim.Play("Hurry");
+                if (TimeInScene < 25f){
+
+                    FindObjectOfType<AudioManager>().Play("Poco_Tiempo");
+                    anim.Play("Hurry");
 
         }
-        else
+            }
+            else
             GM.LoseGame();
     }
         

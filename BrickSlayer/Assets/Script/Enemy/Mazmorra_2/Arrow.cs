@@ -34,7 +34,14 @@ public class Arrow : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
 
-            Destroy(this.gameObject,3f);
+            Destroy(this.gameObject);
+
+        }
+
+        if (collision.gameObject.CompareTag("Sword"))
+        {
+
+            Destroy(this.gameObject);
 
         }
     }

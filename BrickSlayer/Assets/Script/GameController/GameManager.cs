@@ -59,15 +59,16 @@ public class GameManager : MonoBehaviour
     {
         if(Winthegame == false)
         {
+            FindObjectOfType<AudioManager>().Play("Ganaste");
             Instantiate(ParticleWin,new Vector3(0,0,0), transform.rotation);
             Winthegame = true;
         }
-
+        
         GameCondition.text = "Nivel Completado";
         GameCondition_Shadow.text = "Nivel Completado";
         GameCondition.enabled = true;
         GameCondition_Shadow.enabled = true;
-        Time.timeScale = .25f;
+      //  Time.timeScale = .25f;
 
         //Borramos al jugador para evitar Bugs
         Object[] PlayerInScne = GameObject.FindGameObjectsWithTag("Player");
@@ -86,14 +87,12 @@ public class GameManager : MonoBehaviour
     public void LoseGame()
     {
         //Falta mandarlo al menu principal.
-        GameCondition.text = "Perdiste";
-        GameCondition_Shadow.text = "Perdiste";
+        GameCondition.text = "Fin de la Partida";
+        GameCondition_Shadow.text = "Fin de la Partida";
         GameCondition.enabled = true;
         GameCondition_Shadow.enabled = true;
-        Time.timeScale = 0f;
-        Invoke("ResetGame", 1f);
-        Application.LoadLevel("MainMenu");
-
+        Invoke("ResetGame", 1.5f);
+ 
     }
 
     public void ResetGame()

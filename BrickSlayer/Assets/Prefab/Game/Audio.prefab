@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3727586763302695083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3727586763302695081}
+  - component: {fileID: 3727586763302695080}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3727586763302695081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3727586763302695083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5775758, y: 0.17232467, z: -57.973133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3727586763302695080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3727586763302695083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb188c47638bf94cb8fa6e379576122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Slime_Hit
+    clip: {fileID: 8300000, guid: 587676ceacdb8034da54f66ea5aea355, type: 3}
+    effect: {fileID: 0}
+    volume: 0.5
+    Loop: 0
+    source: {fileID: 0}
+  - name: Slime_Up
+    clip: {fileID: 8300000, guid: 699382d4df3c080458429a884a86cd57, type: 3}
+    effect: {fileID: 0}
+    volume: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Cofre
+    clip: {fileID: 8300000, guid: 79dfb73c00f2e9e418012a47894b1fd1, type: 3}
+    effect: {fileID: 0}
+    volume: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Esqueleto_Dano
+    clip: {fileID: 8300000, guid: 26ed1cb0b08dd944db25ff1a3cdedabb, type: 3}
+    effect: {fileID: 0}
+    volume: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Sistema_Seleccionar
+    clip: {fileID: 8300000, guid: b0a5880f1e6b12d4497cba738be1e326, type: 3}
+    effect: {fileID: 0}
+    volume: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Esqueleto_Disparo
+    clip: {fileID: 8300000, guid: 7141bdeb45a43de4a9d850c901cd9f4e, type: 3}
+    effect: {fileID: 0}
+    volume: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Ganaste
+    clip: {fileID: 8300000, guid: 7ff288a45cfecd34c8d42cbb27c08bfd, type: 3}
+    effect: {fileID: 0}
+    volume: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Sword_Hit
+    clip: {fileID: 8300000, guid: ca4ddc53d2ae28f40a0455f1bfe816ca, type: 3}
+    effect: {fileID: 0}
+    volume: 0.3
+    Loop: 0
+    source: {fileID: 0}
+  - name: Poco_Tiempo
+    clip: {fileID: 8300000, guid: 5c44e085ada72a445acfd4b95321328b, type: 3}
+    effect: {fileID: 0}
+    volume: 0.5
+    Loop: 0
+    source: {fileID: 0}
+  - name: Power_UP
+    clip: {fileID: 8300000, guid: 96562bf836b739648ab13969cde97311, type: 3}
+    effect: {fileID: 0}
+    volume: 0.5
+    Loop: 0
+    source: {fileID: 0}
+  - name: Player_Die
+    clip: {fileID: 8300000, guid: cce8958dbbf18df4491d9e7b5d7a59a9, type: 3}
+    effect: {fileID: 0}
+    volume: 1
+    Loop: 0
+    source: {fileID: 0}

@@ -61,6 +61,7 @@ public class Sword : MonoBehaviour
         if (collision.gameObject.tag == "Wall")
         {
             Instantiate(Spark, transform.position, transform.rotation);
+            FindObjectOfType<AudioManager>().Play("Sword_Hit");
             contador++;
             if (contador> 7)
             {
@@ -84,6 +85,7 @@ public class Sword : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().Play("Sword_Hit");
             Instantiate(Spark, transform.position, transform.rotation);
 
         }

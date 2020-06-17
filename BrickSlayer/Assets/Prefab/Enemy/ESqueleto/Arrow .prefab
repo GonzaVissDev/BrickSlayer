@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4886fa7534fdf6d449c4c842d01ed047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Min_SpeedBullet: 5
-  Max_SpeedBullet: 10
+  Min_SpeedBullet: 3
+  Max_SpeedBullet: 5
 --- !u!50 &3179417200959110923
 Rigidbody2D:
   serializedVersion: 4
@@ -143,10 +143,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3179417200959110922}
     m_Modifications:
-    - target: {fileID: 100004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
-      propertyPath: m_Name
-      value: CFX4 Fire
-      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -198,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 400004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
+      propertyPath: m_Name
+      value: CFX4 Fire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
